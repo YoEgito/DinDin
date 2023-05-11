@@ -16,10 +16,15 @@
  .logo img {
      position: absolute;
  }
+
  
+#linkpageinicio {
+    color: white;
+    text-decoration: none;
+}
+
  .dindin {
      position: absolute;
-     color: white;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 30px;
      padding-left: 80px;
