@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* header */
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 82px;
+    padding-bottom: 40px;
+    background-color: #2E948A;
+    margin-bottom: 40px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.logo img {
+    position: absolute;
+}
+
+.dindin {
+    color: white;
+    font-size: 30px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.menu {
+    padding-left: 1270px;
+    padding-top: 33px;
+}
+
+.opcao-menu {
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    list-style: none;
+    align-items: end;
+    padding-right: 103px;
+}
+
+.opcao-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.opcao-menu li a:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
+
+/* main */
+
+.cursoName {
+    display: flex;
+    justify-content: center;
+    margin: 93px 202px;
+    gap: 88px;
+    width: auto;
+}
+
+.cursoName-text h1 {
+    color: #FF4081;
+    width: 450px;
+    height: 126px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.cursoName p {
+    margin-top: 22px;
+    width: 461px;
+    height: 186px;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.aulas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    width: auto;
+}
+
+.aula {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 75px;
+    padding-left: 145px;
+    padding-bottom: 75px;
+    gap: 88px;
+}
+
+
+.aula-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    height: 261px;
+    row-gap: 12%;
+}
+
+.aula-text h2 {
+    color: #FF4081;
+    width: 512px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.aula-text p {
+    width: 501px;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000;
+}
+
+hr {
+
+    border: 0;
+    border-top: 3px solid #C4C4C4;
+    width: 90%;
+}
+
+/* footer */
+
+.logo2 {
+    /* margin-top: 990px; */
+    padding-bottom: 170px;
+    padding-top: 70px;
+    position: relative;
+    background-color: #2E948A;
+}
+
+.logo2 img {
+    padding-left: 200px;
+    position: absolute;
+    
+}
+
+.dindin2 {
+    position: absolute;
+    color: white;
+    padding-left: 340px;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+#edufin {
+    position: absolute;
+    color: white;
+    padding-left: 340px;
+    padding-top: 80px;
+    font-size: larger;
+}
+
+.menu2 {
+    position: absolute;
+    padding-left: 750px;
+    padding-top: 30px;
+}
+
+.opcao-menu2 {
+    color: white;
+    list-style: none;
+}
+
+.opcao-menu2 li{
+    padding-bottom: 10px;
+}
+
+.contato {
+    position: absolute;
+    padding-left: 1400px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.contato-opcao li {
+    color: white;
+    list-style: none;
+    border: 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contato-opcao li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contato-opcao li a:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
