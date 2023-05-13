@@ -18,6 +18,11 @@ header {
 
 }
 
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .logo {
     display: flex;
     justify-content: space-between;
