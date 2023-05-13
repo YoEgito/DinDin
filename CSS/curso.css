@@ -7,31 +7,26 @@
 
 /* header */
 
+header {
+    height: 117px;
+    background-color: #2E948A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+}
+
 .logo {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
     padding-left: 82px;
-    padding-bottom: 40px;
-    background-color: #2E948A;
-    margin-bottom: 40px;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-}
-
-.logo img {
-    position: absolute;
 }
 
 .dindin {
-    color: white;
+    
     font-size: 30px;
-    padding-left: 80px;
-    padding-top: 10px;
-}
-
-.menu {
-    padding-left: 1270px;
-    padding-top: 33px;
 }
 
 .opcao-menu {
@@ -52,6 +47,7 @@
     transition: 400ms;
     color: #FF4081;
 }
+
 
 /* main */
 
@@ -138,75 +134,90 @@ hr {
 
 /* footer */
 
-.logo2 {
-    /* margin-top: 990px; */
-    padding-bottom: 170px;
-    padding-top: 70px;
-    position: relative;
+footer {
     background-color: #2E948A;
+    color: #fff;
+    height: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 137px 0 128px;
 }
 
-.logo2 img {
-    padding-left: 200px;
-    position: absolute;
-    
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
-.dindin2 {
-    position: absolute;
-    color: white;
-    padding-left: 340px;
-    padding-top: 20px;
-    font-size: 50px;
+.logo-footer-text {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
 }
 
-#edufin {
-    position: absolute;
-    color: white;
-    padding-left: 340px;
-    padding-top: 80px;
-    font-size: larger;
+.logo-footer-text h1 {
+
+    font-weight: 500px;
+    font-size: 66px;
+    height: 66px;
+}
+
+.logo-footer-text p {
+    height: 22px;
+    font-weight: 300px;
+    font-size: 22px;
 }
 
 .menu2 {
-    position: absolute;
-    padding-left: 750px;
-    padding-top: 30px;
+    margin-left: 183px;
 }
 
 .opcao-menu2 {
-    color: white;
     list-style: none;
 }
+.opcao-menu2 a {
+    text-decoration: none;
+    color: #fff;
+}
 
-.opcao-menu2 li{
+.opcao-menu2 li {
+    font-size: 20px;
     padding-bottom: 10px;
+    font-weight: 400;
+    line-height: 23px;
+    
+}
+
+.opcao-menu2 li:hover {
+    transition: 400ms;
+    color: #FF4081;
 }
 
 .contato {
-    position: absolute;
-    padding-left: 1400px;
-    padding-top: 10px;
-    font-size: 30px;
+    margin-left: 320px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 13px;
 }
 
-.contato-opcao li {
-    color: white;
-    list-style: none;
+.contato button {
+    cursor: pointer;
+    background-color: #2E948A;
+    color: #fff;
     border: 2px solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 60px;
-    text-align: center;
-    margin-bottom: 20px;
+    border-radius: 62px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 289px;
+    height: 51px;
+    line-height: 23px;
 }
 
-.contato-opcao li a {
-    color: white;
-    text-decoration: none;
-}
-
-.contato-opcao li a:hover {
+.contato button:hover {
     transition: 400ms;
     color: #FF4081;
 }
