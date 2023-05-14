@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+   /* MENU */
+
+header {
+    height: 117px;
+    background-color: #2E948A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 82px;
+}
+.dindin {
+    font-size: 30px;
+}
+.opcao-menu {
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    list-style: none;
+    align-items: end;
+    padding-right: 103px;
+}
+.opcao-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.opcao-menu li a:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
+
+/* Educação Financeira */
+
+.educa-financeira {
+    padding-left: 200px;
+    padding-top: 60px;
+    margin-right: 900px;
+    position: absolute;
+}
+
+.educa-financeira h1 {
+    color: #FF4081;
+    font-size: 100px;
+}
+
+.educa-abaixo p {
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-right: 101px;
+    font-size: 40px;
+    color:#555555;
+}
+
+#educa-botao {
+    font-size: 35px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+#educa-botao a {
+    color: #FF4081;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 30px 30px 30px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 13px;
+}
+
+#educa-botao a:hover {
+    transition: 300ms;
+    color: #2E948A;
+}
+
+.ilustra-banner {
+    padding-left: 930px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+/* 3 imagens uma do lado da outra */
+
+.main2 {
+    background-color: #F6F6F6;
+    display: flex;
+    text-align: center;
+}
+
+.img1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+
+.h12 {
+    min-width: 500px;
+    padding-top: 20px;
+    color: #FF4081;
+    
+}
+
+#p12 {
+    padding-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    
+}
+
+#comecaagr {
+    color: white;
+    text-decoration: none;
+    background-color: #FF4081;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: x-large;
+}
+
+#comecaagr:hover {
+    transition: 300ms;
+    background-color: #2E948A;
+}
+
+/* Comentarios de ex-alunos */
+
+.ex-alu {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: #009688;
+    font-size: 40px;
+}
+
+.comentarios-exalunos2 {
+    padding-top: 100px;
+    padding-left: 90px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.comentarios-exalunos {
+    padding-top: 100px;
+    padding-left: 90px;
+    display: flex;
+}
+
+#personagen {
+    border: 2px solid #FF4081;
+    border-radius: 50%;
+}
+
+.personagens {
+    display: flex;
+}
+
+#comentario {
+    margin-right: 120px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+#idade {
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 120px;
+}
+
+/* MAIS CONTEÚDO */
+
+.main4 {
+    background-color: #F6F6F6;
+    padding-bottom: 100px;
+}
+
+#mais-conteudo {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: #009688;
+    font-size: 40px;
+}
+
+.blocos-cinzas {
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+}
+
+#titulo12 {
+    color: #2E948A;
+    padding-bottom: 10px;
+}
+
+#p12 {
+    text-align: left;
+    font-size: large;
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+
+#link-post {
+    text-decoration: none;
+    margin-left: 800px;
+    color: #FF4081;
+}
+
+#link-post p {
+    font-size: xx-large;
+    border: 1px solid;
+    border-radius: 20px;
+    display: inline;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#link-post:hover {
+    transition: 300ms;
+    color: #009688;
+}
+
+/* FINAL RODA PÉ */
+
+footer {
+    background-color: #2E948A;
+    color: #fff;
+    height: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 137px 0 128px;
+}
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo-footer-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.logo-footer-text h1 {
+    font-weight: 500px;
+    font-size: 66px;
+    height: 66px;
+}
+.logo-footer-text p {
+    height: 22px;
+    font-weight: 300px;
+    font-size: 22px;
+}
+.menu2 {
+    margin-left: 183px;
+}
+.opcao-menu2 {
+    list-style: none;
+}
+.opcao-menu2 a {
+    text-decoration: none;
+    color: #fff;
+}
+.opcao-menu2 li {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.opcao-menu2 li:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
+.contato {
+    margin-left: 320px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 13px;
+}
+.contato button {
+    background-color: #2E948A;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 400;
+    width: 289px;
+    height: 51px;
+    line-height: 23px;
+    border-radius: 50px;
+    color: #F6F6F6;
+}
+.contato button:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
+
