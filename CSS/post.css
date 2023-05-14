@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* header */
+
+header {
+    height: 117px;
+    background-color: #2E948A;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 82px;
+}
+
+.dindin {
+    
+    font-size: 30px;
+}
+
+.opcao-menu {
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    list-style: none;
+    align-items: end;
+    padding-right: 103px;
+}
+
+.opcao-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.opcao-menu li a:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
+
+/* main */
+
+.post {
+    margin: 111px 204px;
+    text-align: center;
+}
+
+#post-title {
+    color: #FF4081;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+
+#post-date {
+    color: #9D9D9D;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 74px;
+}
+
+#post-img {
+    width: 100%
+}
+
+.post-text {
+    margin-top: 64px;
+    margin-bottom: 111px;
+    text-align: left;
+    padding-bottom: 111px;
+}
+
+.texto-principal,
+.subtitulo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #2E948A;
+}
+
+.conhecaCursos {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+    flex-shrink: 3;
+    gap: 10%;
+}
+
+.cursos p {
+    margin-bottom: 15px;
+}
+
+#conhecaCursos-title {
+    color: #FF4081;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 101px;
+    margin-top: 79px;
+}
+
+#image-curso {
+    margin-bottom: 50px;
+}
+
+.investimentoIniciantes {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    max-width: 293px;
+    text-align: center;
+    align-items: center;
+}
+
+.poupandoRendendo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    max-width: 293px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.independenciaFinanceira {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    max-width: 293px;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    border: 0px;
+    border-radius: 62px;
+    color: #fff;
+    background-color: #FF4081;
+    font-weight: 400;
+    font-size: 20px;
+    width: 233px;
+    height: 62.81px;
+}
+
+.cursos h3 {
+    text-decoration: none;
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 25px;
+    width: max-content;
+}
+
+/* footer */
+
+footer {
+    background-color: #2E948A;
+    color: #fff;
+    height: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 137px 0 128px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-footer-text {
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.logo-footer-text h1 {
+
+    font-weight: 500px;
+    font-size: 66px;
+    height: 66px;
+}
+
+.logo-footer-text p {
+    height: 22px;
+    font-weight: 300px;
+    font-size: 22px;
+}
+
+.menu2 {
+    margin-left: 183px;
+}
+
+.opcao-menu2 {
+    list-style: none;
+}
+.opcao-menu2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.opcao-menu2 li {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    line-height: 23px;
+    
+}
+
+.opcao-menu2 li:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
+
+.contato {
+    margin-left: 320px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 13px;
+}
+
+.contato button {
+    background-color: #2E948A;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 400;
+    width: 289px;
+    height: 51px;
+    line-height: 23px;
+}
+
+.contato button:hover {
+    transition: 400ms;
+    color: #FF4081;
+}
